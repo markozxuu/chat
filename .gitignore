@@ -16,7 +16,6 @@ yarn-error.log*
 
 # vercel metadata
 .vercel
-public/atom.xml
 
 # keys
 .env.local

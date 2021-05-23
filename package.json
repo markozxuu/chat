@@ -1,0 +1,14 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "An serverless chat with Next.js",
+  "main": "index.js",
+  "author": "Markoz Peña",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "next": "^10.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

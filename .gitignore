@@ -1,0 +1,22 @@
+# dependencies
+node_modules
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+
+# build output
+.next
+/dist
+
+# vercel metadata
+.vercel
+public/atom.xml
+
+# keys
+.env.local

@@ -20,6 +20,8 @@
     "@typescript-eslint/eslint-plugin": "^4.28.0",
     "@typescript-eslint/parser": "^4.28.0",
     "autoprefixer": "^10.2.6",
+    "eslint": "^7.29.0",
+    "eslint-config-next": "^11.0.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^6.0.0",
@@ -37,6 +39,7 @@
     "build": "next build",
     "start": "next start",
     "prepare": "husky install",
-    "pre-commit": "lint-staged --allow-empty"
+    "pre-commit": "lint-staged --allow-empty",
+    "lint": "next lint"
   }
 }
